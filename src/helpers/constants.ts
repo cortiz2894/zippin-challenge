@@ -3,14 +3,14 @@ import { DriverType, LocationsType } from "../interfaces/interfaces";
 export const DRIVERS:DriverType[] = [
   {
     id:1,
-    name: 'Uberto 1',
+    name: 'Chofer 1',
     icon: 'marker-red.png',
     color: '#F44336',
     destinies: []
   },
   {
     id:2,
-    name: 'Uberto 2',
+    name: 'Chofer 2',
     icon: 'marker-green.png',
     color: '#4caf50',
     destinies: []
@@ -18,7 +18,7 @@ export const DRIVERS:DriverType[] = [
   },
   {
     id:3,
-    name: 'Uberto 3',
+    name: 'Chofer 3',
     icon: 'marker-purple.png',
     color: '#9c27b0',
     destinies: []
@@ -26,7 +26,7 @@ export const DRIVERS:DriverType[] = [
   },
   {
     id:4,
-    name: 'Uberto 4',
+    name: 'Chofer 4',
     icon: 'marker-blue.png',
     color: '#0e54c1',
     destinies: []
@@ -34,7 +34,7 @@ export const DRIVERS:DriverType[] = [
   },
   {
     id:5,
-    name: 'Uberto 5',
+    name: 'Chofer 5',
     icon: 'marker-orange.png',
     color: '#ce8919',
     destinies: []
