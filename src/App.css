@@ -19,7 +19,7 @@
   left: -3px;
   width: 5px;
   height: 5px;
-  background-color: #3ee9a8;
+  background-color: currentColor;
   border-radius: 50%;
 }
 .i-destination:nth-last-child(1)::after {

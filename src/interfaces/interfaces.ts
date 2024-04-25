@@ -11,6 +11,7 @@ export type DriverType = {
     name: string, 
     id: number,
     icon: string,
+    color: string,
     destinies: LocationsType[]
 }
 

@@ -12,6 +12,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.3.6",
     "antd": "^5.14.2",
+    "classnames": "^2.5.1",
     "leaflet": "^1.9.4",
     "luxon": "^3.4.4",
     "moment": "^2.30.1",
@@ -28,6 +29,7 @@
     "@typescript-eslint/parser": "^7.0.2",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
+    "dotenv": "^16.4.5",
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
