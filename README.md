@@ -1,13 +1,22 @@
-# Reto Contpaqi 
+# Ejercicio Frontend React
 
-Se requiere de una aplicación web donde se puedan administrar los empleados de un despacho
-contable.
-Al ingresar a la aplicación se debe mostrar una pantalla con el listado de los empleados que
-actualmente están laborando, cada empleado debe tener la opción de editar y eliminar.
-Además, debe tener tres botones ajenos al listado que permitan el alta de un nuevo empleado, la
-búsqueda de algún empleado y actualizar la página. La información debe persistirse en local storage
-y la manipulación y/o consulta de los datos deberá realizarse de manera que facilite un cambio de los
-medios de persistencia.
+## Objetivo
+
+El objetivo de este ejercicio es desarrollar una aplicación simple que facilite la planificación de entregas, permitiendo asignar a distintos choferes los trabajos que deben realizar.
+
+## Tarea
+
+La tarea consiste en armar una aplicación con las siguientes funcionalidades:
+
+- Mostrar un mapa con puntos correspondientes a las ubicaciones donde se deben realizar entregas. Habrá un total de 20 ubicaciones.
+- Mostrar al costado del mapa un listado de 5 choferes disponibles para realizar las entregas.
+- Permitir al usuario asignar uno o más puntos de entrega a los choferes. Cada punto puede ser asignado a un chofer específico o quedar sin asignar.
+- Al realizar las asignaciones, se debe reflejar claramente en el mapa qué puntos fueron asignados a cada chofer, utilizando diferentes colores o marcadores.
+
+## Requisitos
+
+- La aplicación debe desarrollarse utilizando React.
+- Se pueden utilizar paquetes externos y librerías para implementar las diferentes funcionalidades requeridas.
 
 ## Instalación
 
