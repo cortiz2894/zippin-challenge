@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.i-destination:before, .i-destination:nth-last-child(1)::after {
+  content: '';
+  position: absolute;
+  left: -3px;
+  width: 5px;
+  height: 5px;
+  background-color: #3ee9a8;
+  border-radius: 50%;
+}
+.i-destination:nth-last-child(1)::after {
+  bottom: -3px;
+}
+.i-destination:before {
+  top: -3px;
+}
