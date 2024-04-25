@@ -4,8 +4,6 @@ import * as L from 'leaflet';
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { MARKERS_DEFAULT } from "../../helpers/constants";
-import { Select } from "antd";
-import { CloseOutlined } from '@ant-design/icons';
 import { DriverType, LocationsType } from "../../interfaces/interfaces";
 import PopupContent from "./PopupContent";
 
